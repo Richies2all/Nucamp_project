@@ -91,6 +91,23 @@ header h1 {
     background-color: $color-secondary;
 }
 
+.carousel {
+    border: solid $color-secondary;
+    border-radius: 8px;
+
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
 /*footer styles*/
 .footer-social {
     text-align: center;
