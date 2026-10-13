@@ -1,0 +1,17 @@
+@use "styles" as *;
+
+.hero {
+    padding: 20px 0;
+    background-image: linear-gradient(to right, $color-mid, $color-primary, $color-dark);
+    margin-bottom: 0px;
+    color: white;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    gap: 50px;
+    align-items: center;
+}

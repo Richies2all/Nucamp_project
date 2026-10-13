@@ -1,0 +1,15 @@
+.hero {
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #b1aa72, #4dae8f, #404375, #8c4b78);
+    margin-bottom: 0px;
+    color: white;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    gap: 50px;
+    align-items: center;
+}

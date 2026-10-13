@@ -1,0 +1,103 @@
+$color-first: #cab34d;
+$color-primary: #c48cc1;
+$color-secondary: green;
+$color-pale: cyan;
+$color-mid: #8d161c;
+$color-dark: #ca621d;
+$color-black-transparent: #291f1f;
+$color-teal: #87b43d;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "lobster", cursive, arial;
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-teal;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-first, $color-secondary, $color-mid, $color-black-transparent);
+    color: white;
+}
+
+header h1 {
+    color: #CEC8FF;
+}
+
+.content-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    padding: 0 15px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: auto;
+}
+
+.thumbnail {
+    padding: 4px;
+    background-color: $color-first;
+    border: 1px solid $color-mid;
+    border-radius: 4px;
+    max-width: 50%;
+    height: 50%;
+}
+
+.tab-content {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid $color-teal;
+    border-radius: 4px;
+    border-top: none;
+}
+
+.navbar {
+    background-color: $color-secondary;
+    background-image: linear-gradient(to right, $color-pale, $color-mid);
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar-list a:hover {
+    background-color: $color-secondary;
+}
+
+/*footer styles*/
+.footer-social {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+@import 'modal';

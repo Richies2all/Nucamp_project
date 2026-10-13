@@ -1,0 +1,21 @@
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: start;
+}
+
+.site-footer {
+    background-image: linear-gradient(#998ea6, #d3d5dc);
+    padding: 20px 0;
+}
+
+.footer-links {
+    text-align: left;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
