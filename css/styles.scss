@@ -1,11 +1,11 @@
 $color-first: #cab34d;
-$color-primary: #c48cc1;
+$color-primary: #74c96c;
 $color-secondary: green;
 $color-pale: cyan;
-$color-mid: #8d161c;
+$color-mid: #975357;
 $color-dark: #ca621d;
-$color-black-transparent: #291f1f;
-$color-teal: #87b43d;
+$color-black-transparent: #706c6c;
+$color-teal: #0f0f0f;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "lobster", cursive, arial;
@@ -22,6 +22,7 @@ h2 {
     color: $color-teal;
 }
 
+
 header {
     padding: 30px;
     background-image: linear-gradient(to right, $color-first, $color-secondary, $color-mid, $color-black-transparent);
@@ -29,7 +30,8 @@ header {
 }
 
 header h1 {
-    color: #CEC8FF;
+    color: #0e0e0f;
+    text-align: center;
 }
 
 .content-row {
@@ -97,15 +99,55 @@ header h1 {
 
 }
 
-.carousel-caption {
+#homeCarousel .carousel-caption {
     background-color: $color-black-transparent;
 }
 
-.carousel-item img {
-    width: 50%;
-    height: 300px;
-    margin: 0 auto;
-    object-fit: cover;
+/* Carousel wrapper */
+#homeCarousel {
+    width: 100%;
+    max-width: 1200px;  /* Limit width on large screens */
+    margin: 20px auto;  /* Center horizontally */
+}
+
+/* Carousel slide height */
+#homeCarousel .carousel-item {
+    height: 400px;
+    background-color: #f1f5f9;
+}
+
+/* Fit the complete image inside each slide */
+#homeCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Make the carousel responsive on smaller screens */
+@media (max-width: 768px) {
+    #homeCarousel .carousel-item {
+        height: 280px;
+    }
+
+    #homeCarousel .carousel-caption h3 {
+        font-size: 1.1rem;
+    }
+
+    #homeCarousel .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #homeCarousel .carousel-item {
+        height: 200px;
+    }
+
+    #homeCarousel .carousel-caption {
+        bottom: 0;
+        padding-bottom: 1.5rem;
+    }
 }
 
 /*footer styles*/
