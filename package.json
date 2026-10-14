@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "source": "index.html",
+  "source": "home.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
