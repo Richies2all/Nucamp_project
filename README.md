@@ -77,6 +77,7 @@ The SCSS compiler or configured build tool transforms the source into CSS that b
 ## Learning Outcomes
 
 This project demonstrates the practical application of foundational front-end development concepts, including page structure, responsive styling, asset management, stylesheet preprocessing, and source control. It provides a foundation for continued learning in modern web development and more advanced front-end workflows.
+Link to the project: https://myproject-dfea7.web.app/projects.html
 
 ## Acknowledgements
 
